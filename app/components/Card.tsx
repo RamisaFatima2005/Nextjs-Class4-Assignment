@@ -13,7 +13,7 @@ function Card(props:Idcard) {
   return (
     <>
     <div className="rounded-2xl p-5 m-5 bg-slate-300 font-sans m-20 max-w-96 h-72 border-4 border-black">
-    <img src="https://www.governorsindh.com/logo.png" className="h-14 w-12" />
+    <img src="/g.s_logo.png" className='w-14 h-12'/>
         <h1 className="text-blue-900 font-bold">Name: <span className='text-black font-semibold'>{props.name}</span></h1>
         <h1 className="text-blue-900 font-bold">Roll No: <span className='text-black font-semibold'>{props.rollNo}</span></h1>
         <h1 className="text-blue-900 font-bold">Center: <span className='text-black font-semibold'>{props.center}</span></h1>
